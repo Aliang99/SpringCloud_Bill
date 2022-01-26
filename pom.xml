@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.aliang</groupId>
+    <artifactId>SpringCloud_Bill</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>SpringCloud-Bill-8001</module>
+        <module>SpringCloud-Bill-8002</module>
+        <module>SpringCloud-Bill-8003</module>
+        <module>SpringCloud-Consumer-Bill-80</module>
+        <module>SpringCloud-EurekaServer-7001</module>
+        <module>SpringCloud-EurekaServer-7002</module>
+        <module>SpringCloud-EurekaServer-7003</module>
+    </modules>
+
+    <properties>
+        <springboot.version>2.3.2.RELEASE</springboot.version>
+        <springcloud.version>Hoxton.SR1</springcloud.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <mysql.version>8.0.19</mysql.version>
+        <mybaits.plus.verson>3.3.2</mybaits.plus.verson>
+        <pageHelper.verson>1.2.13</pageHelper.verson>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 定义springboot依赖-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${springboot.version}</version>
+                <type>pom</type>
+                <!-- 用于为已经继承了父类的项目 导入其它依赖提供服务 如：spring-boot-starter-web等等启动器，
+                        因为maven是单继承的，所以如果子项目已经有了父依赖，即parent标签，那么就需要import来引入未定义在父项目中的依赖，当然前提是要与type标签中的pom结合使用
+                        就以当前项目而言：
+                            如果未显式引入mysql依赖，那么maven会在scope为import的spring-boot-dependencies依赖中,继承已定义好的mysql依赖及版本号在当前项目使用
+                            如果显式引入了mysql依赖，那么当前项目就会发生版本重写，用自己引入的mysql依赖覆盖掉import依赖中定义的mysql依赖及版本号，并应用在当前项目使用
+                            也就是继承了spring-boot-dependencies中定义的所有依赖，可供使用，如果显式定义了其中一个，就发生替换，将显式定义的作为唯一依赖供使用
+                        对于子项目而言：
+                            可以直接引用spring-boot-dependencies中定义的依赖以及版本，而不需要自己指定了
+                        该作用域的pom一般使用在dependencyManagement中
+                        -->
+                <scope>import</scope>
+            </dependency>
+            <!-- Spring Cloud 依赖-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${springcloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- 定义mysql依赖-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <!-- 定义Mybatis-Plus 依赖-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybaits.plus.verson}</version>
+            </dependency>
+            <!-- 分页插件-->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pageHelper.verson}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <!-- 添加依赖-->
+    <dependencies>
+        <!-- 添加lombok依赖-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <!-- 添加maven插件-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.2</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
