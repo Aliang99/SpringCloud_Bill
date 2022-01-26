@@ -8,12 +8,17 @@ SpringCloud练手项目
 待完善：整合OpenFeign、GateWay、Config、Bus
 
 另再使用SpringCloud Alibaba重构
+
 用于学习SpringCloud Alibaba
 
 使用Nacos(替换Eureka、Config、Bus)
+
 使用Sentinel(替换Hystrix)
+
 使用Dubbo RPC替换Feign
+
 使用Dubbo PROXY替换Gateway
+
 使用Dubbo LB 替换 Ribbon
 
 计划待定
