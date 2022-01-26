@@ -3,32 +3,36 @@ SpringCloud练手项目
 
 目前进度：
 
-- 整合Eureka
-- 整合Hystrix
-- 整合Ribbon
-- Eureka集群
-- 服务端集群
+🚩 整合Eureka
+
+🚩 整合Hystrix
+
+🚩 整合Ribbon
+
+🚩 Eureka集群
+
+🚩 服务端集群
 
 
 由Bill项目重构
 原来的版本可以查看 
 [SpringBoot记账Demo](https://github.com/Aliang99/billProject)
 
-待完善：整合OpenFeign、GateWay、Config、Bus
+待完善：整合OpenFeign、GateWay、Config、Bus😄
 
 另再使用SpringCloud Alibaba重构
 
 用于学习SpringCloud Alibaba
 
-使用Nacos(替换Eureka、Config、Bus)
+✏️使用Nacos替换Eureka、Config、Bus
 
-使用Sentinel(替换Hystrix)
+✏️使用Sentinel替换Hystrix
 
-使用Dubbo RPC替换Feign
+✏️使用Dubbo RPC替换Feign
 
-使用Dubbo PROXY替换Gateway
+✏️使用Dubbo PROXY替换Gateway
 
-使用Dubbo LB 替换 Ribbon
+✏️使用Dubbo LB 替换 Ribbon
 
 计划待定
 组件替换图1：
