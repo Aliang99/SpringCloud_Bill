@@ -3,7 +3,7 @@ SpringCloud练手项目
 
 由Bill项目重构
 原来的版本可以查看 
-[百度](https://github.com/Aliang99/billProject)
+[SpringBoot记账Demo](https://github.com/Aliang99/billProject)
 
 待完善：整合OpenFeign、GateWay、Config、Bus
 
