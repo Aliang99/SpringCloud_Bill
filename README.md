@@ -1,6 +1,15 @@
 # Bill-SpringCloud-Demo
 SpringCloud练手项目
 
+目前进度：
+
+- 整合Eureka
+- 整合Hystrix
+- 整合Ribbon
+- Eureka集群
+- 服务端集群
+
+
 由Bill项目重构
 原来的版本可以查看 
 [SpringBoot记账Demo](https://github.com/Aliang99/billProject)
