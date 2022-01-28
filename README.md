@@ -1,7 +1,7 @@
 # Bill-SpringCloud-Demo
 SpringCloud练手项目
 
-目前进度：
+**目前进度：**
 
 🚩 整合Eureka
 
@@ -21,11 +21,11 @@ SpringCloud练手项目
 
 原来的版本可以查看 
 
-[SpringBoot记账Demo](https://github.com/Aliang99/billProject)
+**[SpringBoot记账Demo](https://github.com/Aliang99/billProject)**
 
-待完善：整合GateWay、Config、Bus😄
+**待完善：整合GateWay、Config、Bus😄**
 
-另再使用SpringCloud Alibaba重构
+另再使用**SpringCloud Alibaba**重构
 
 用于学习SpringCloud Alibaba
 
@@ -39,13 +39,13 @@ SpringCloud练手项目
 
 ✏️使用Dubbo LB 替换 Ribbon
 
-计划待定
+**计划待定**
 
-组件替换参考图1：
+**组件替换参考图1：**
 
 ![image](https://user-images.githubusercontent.com/38972334/151257484-4daa6c34-f0dd-4233-bbd7-b58e6355ef13.png)
 
-组件替换参考图2：
+**组件替换参考图2：**
 
 ![image](https://user-images.githubusercontent.com/38972334/151257600-fbaa7e51-fa0d-4af9-8703-6dfb5d9e3730.png)
 
