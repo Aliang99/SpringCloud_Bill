@@ -195,7 +195,7 @@
                     if (data.data.page.hasNextPage) { //有下一页
                         nextNum = currentNum + 1;//设置下一页的页码
                     }
-                    lastNum = data.data.page.navigatepageNums[data.data.page.navigatepageNums.length - 1]; //页码数组中最后一个页码
+                    lastNum = data.data.page.pages; //总页数即是最后一页
 
 
                     // 1、查询条件回显处理
