@@ -22,10 +22,12 @@ import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Objects;
 
 @Controller
 @DefaultProperties(defaultFallback = "defaultFallback") //指定默认服务降级方法
 @Description(value = "该类中的方法不推荐使用，已使用Feign代理并自动请求，请使用BillByFeignController类")
+@Deprecated
 @RequestMapping("/desc")
 public class BillController {
     @Resource
@@ -102,15 +104,13 @@ public class BillController {
          */
         Map<String, Long> param = new HashMap<>();
         param.put("id", id);
-        CommonVo resp = restTemplate.getForObject(BILL_SERVICE_URL + "/bill/queryById/{id}", CommonVo.class, param);
-        return resp;
+        return restTemplate.getForObject(BILL_SERVICE_URL + "/bill/queryById/{id}", CommonVo.class, param);
     }
 
 
     /**
      * 更新bill
-     * @param bill
-     * @return 
+     * @return
      * 开发与远程调用状态：OK
      */
     @PostMapping("/consumer/update")
@@ -134,14 +134,13 @@ public class BillController {
     /**
      * 用于封装RestTemplate POST类型的请求参数
      * @param bill bill添加、bill更新
-     * @return
      */
     public HttpEntity<MultiValueMap<String, Object>> setRestParam(Bill bill) {
         MultiValueMap<String, Object> param = new LinkedMultiValueMap<>();
         if (bill.getId() > 0) {
             param.add("id", bill.getId());
         }
-        if (bill.getTitle() != null && bill.getTitle() != "") {
+        if (bill.getTitle() != null && !Objects.equals(bill.getTitle(), "")) {
             param.add("title", bill.getTitle());
         }
         if (bill.getBillTime() != null) {
@@ -194,22 +193,17 @@ public class BillController {
                   int hostPort = serviceInstance.getPort(); //获取端口
                   String url = "http://" + hostName + ":" + hostPort; //拼接远程调用地址
          */
-        CommonVo resp = restTemplate.getForObject(BILL_SERVICE_URL + "/bill/getTypes", CommonVo.class);
-        return resp;
+        return restTemplate.getForObject(BILL_SERVICE_URL + "/bill/getTypes", CommonVo.class);
     }
 
 
     /**
      * 添加bill
-     * @param bill
-     * @return
-     * @throws ParseException
-     * 开发与远程调用状态：OK
      */
     @PutMapping("/consumer/add")
     @ResponseBody
     @HystrixCommand
-    public CommonVo add(Bill bill) throws ParseException {
+    public CommonVo add(Bill bill) {
         System.out.println("添加方法被访问了....");
         /*
             未引入Ribbon负载均衡时的写法：
@@ -227,17 +221,14 @@ public class BillController {
 
     /**
      * 分页+模糊查
-     * @param pageNum
-     * @param pageSize
-     * @param bill
      * @return
      * 开发与远程调用状态：OK
      */
     @GetMapping("/consumer/page")
     @ResponseBody
     @HystrixCommand
-    public CommonVo page(@RequestParam(defaultValue = "1") int pageNum,
-                         @RequestParam(defaultValue = "2") int pageSize,
+    public CommonVo page(@RequestParam(value = "pageNum",defaultValue = "1") int pageNum,
+                         @RequestParam(value = "pageSize",defaultValue = "2") int pageSize,
                          Bill bill) {
         System.out.println("分页方法被访问了....");
         /*
