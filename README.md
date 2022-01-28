@@ -13,6 +13,9 @@ SpringCloud练手项目
 
 🚩 服务端集群
 
+🚩整合OpenFeign动态代理请求接口(2022年1月29日 02点47分)
+
+
 
 由Bill项目重构
 
@@ -20,7 +23,7 @@ SpringCloud练手项目
 
 [SpringBoot记账Demo](https://github.com/Aliang99/billProject)
 
-待完善：整合OpenFeign、GateWay、Config、Bus😄
+待完善：整合GateWay、Config、Bus😄
 
 另再使用SpringCloud Alibaba重构
 
