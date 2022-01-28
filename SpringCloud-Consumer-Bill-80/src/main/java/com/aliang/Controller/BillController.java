@@ -4,6 +4,7 @@ import com.aliang.Common.CommonVo;
 import com.aliang.pojo.Bill;
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import jdk.jfr.Description;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -24,6 +25,8 @@ import java.util.Map;
 
 @Controller
 @DefaultProperties(defaultFallback = "defaultFallback") //指定默认服务降级方法
+@Description(value = "该类中的方法不推荐使用，已使用Feign代理并自动请求，请使用BillByFeignController类")
+@RequestMapping("/desc")
 public class BillController {
     @Resource
     private RestTemplate restTemplate;
