@@ -70,7 +70,6 @@ public class BillController {
         return restTemplate.exchange(BILL_SERVICE_URL + "/bill/delete/" + id , HttpMethod.DELETE, null, CommonVo.class).getBody();
     }
 
-
     /**
      * 更新页面的跳转
      * @return 
@@ -81,7 +80,6 @@ public class BillController {
         System.out.println("跳转到更新页面被访问了....");
         return "/bill/update";
     }
-
 
     /**
      * 根据id获取bill
@@ -107,7 +105,6 @@ public class BillController {
         return restTemplate.getForObject(BILL_SERVICE_URL + "/bill/queryById/{id}", CommonVo.class, param);
     }
 
-
     /**
      * 更新bill
      * @return
@@ -129,7 +126,6 @@ public class BillController {
         HttpEntity<MultiValueMap<String, Object>> httpEntity = setRestParam(bill);
         return restTemplate.exchange(BILL_SERVICE_URL + "/bill/update", HttpMethod.POST, httpEntity, CommonVo.class).getBody();
     }
-
 
     /**
      * 用于封装RestTemplate POST类型的请求参数
@@ -161,7 +157,6 @@ public class BillController {
         return new HttpEntity<>(param, headers);
     }
 
-
     /**
      * 跳转到添加页面
      * @return
@@ -173,7 +168,6 @@ public class BillController {
         //页面跳转
         return "/bill/add";
     }
-
 
     /**
      * 获取类型列表
@@ -196,7 +190,6 @@ public class BillController {
         return restTemplate.getForObject(BILL_SERVICE_URL + "/bill/getTypes", CommonVo.class);
     }
 
-
     /**
      * 添加bill
      */
@@ -217,7 +210,6 @@ public class BillController {
         HttpEntity<MultiValueMap<String, Object>> httpEntity = setRestParam(bill);
         return restTemplate.exchange(BILL_SERVICE_URL + "/bill/add", HttpMethod.PUT, httpEntity, CommonVo.class).getBody();
     }
-
 
     /**
      * 分页+模糊查
@@ -255,7 +247,6 @@ public class BillController {
         return restTemplate.getForObject(BILL_SERVICE_URL + "/bill/page" + urlParam, CommonVo.class, param);
     }
 
-
     /**
      * 跳转到主页
      * @return
@@ -267,7 +258,6 @@ public class BillController {
         return "/bill/list-page";
     }
 
-
     //服务降级的方法，返回提示信息
     public CommonVo queryByIdFallback(Long id) {
         return new CommonVo(400, "抱歉，网络拥堵，请稍后再试！！！", null);
@@ -278,6 +268,7 @@ public class BillController {
     public CommonVo defaultFallback() {
         return new CommonVo(400, "中国移动提醒您，你请求的服务太拥堵，请稍后再试", null);
     }
+
     //服务降级的方法，返回提示信息
     public CommonVo AdviceFallback(){
         return new CommonVo(400,"抱歉，网络拥堵，请稍后再试！！！",null);
