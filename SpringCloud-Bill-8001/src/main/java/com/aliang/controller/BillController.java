@@ -103,7 +103,7 @@ public class BillController {
      */
     @GetMapping("/queryById/{id}")
     @ResponseBody
-    public CommonVo updatePage(@PathVariable("id") Long id) {
+    public CommonVo queryById(@PathVariable("id") Long id) {
         //根据id查询对应的数据
         Bill bill = billService.selectById(id);
         return new CommonVo(200, "OK", bill);
