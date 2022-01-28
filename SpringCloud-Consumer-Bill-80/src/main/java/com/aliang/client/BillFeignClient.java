@@ -4,10 +4,13 @@ import com.aliang.Common.CommonVo;
 import com.aliang.config.FeignConfiguration;
 import com.aliang.pojo.Bill;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.cloud.openfeign.SpringQueryMap;
 import org.springframework.web.bind.annotation.*;
 
 
-
+/**
+ * 使用Feign远程调用接口时，传递的参数为对象或者RquestBody类型参数，必须要加上@SpringQueryMap注解标注才可以传参
+ */
 @FeignClient(value = "Bill-Service",configuration = FeignConfiguration.class)
 public interface BillFeignClient {
 
@@ -25,7 +28,7 @@ public interface BillFeignClient {
     @ResponseBody
     CommonVo page(@RequestParam(value = "pageNum", defaultValue = "1") int pageNum,
                   @RequestParam(value = "pageSize", defaultValue = "2") int pageSize,
-                  Bill bill) ;
+                  @SpringQueryMap Bill bill) ;
 
 
     /**
@@ -35,7 +38,7 @@ public interface BillFeignClient {
      */
     @PutMapping("/bill/add")
     @ResponseBody
-    CommonVo add(Bill bill) ;
+    CommonVo add(@SpringQueryMap Bill bill) ;
 
 
     /**
@@ -64,7 +67,7 @@ public interface BillFeignClient {
      */
     @PostMapping("/bill/update")
     @ResponseBody
-    CommonVo update(Bill bill) ;
+    CommonVo update(@SpringQueryMap Bill bill) ;
 
     /**
      * 根据id删除bill
