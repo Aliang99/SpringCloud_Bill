@@ -1,0 +1,49 @@
+server:
+  port: 80
+eureka:
+  client:
+    register-with-eureka: true # 表示是否将自己注册进Eureka 默认为true
+    fetch-registry: true # 表示是否从EurekaServer抓取已有的注册信息，默认为true，单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka  # 注册到该路径的Eureka中
+    # register-with-eureka和fetch-registry 默认是true,所以不用设置
+  instance:
+    prefer-ip-address: true
+logging:
+  level:
+    com.aliang: debug # com.aliang为包名
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: Bill-Consumer # 服务名称
+Bill-Service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # 负载均衡，随机调用 ，默认轮询
+    ConnectTimeout: 1000 # 连接超时时长
+    ReadTimeout: 2000 # 数据通信超时时长
+    MaxAutoRetries: 0 # 当前服务器的重试次数
+    MaxAutoRetriesNextServer: 0 # 重试多少次服务
+    OkToRetryOnAllOperations: false # 是否对所有的请求方式都重试
+#  mvc:
+#    hiddenmethod:
+#      filter:
+#        enabled: true # 开启使用SpringMVC将post转为PUT、DELETE，默认关闭
+#User-Service:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 2000 #服务降级超时时间
+#      circuitBreaker:
+#        errorThresholdPercentage: 50 # 触发熔断错误比例阈值，默认值50%
+#        sleepWindowInMilliseconds: 10000 # 熔断后休眠时长，默认值5秒
+#        requestVolumeThreshold: 10 # 熔断触发最小请求次数，默认值是20次
+#feign:
+#  hystrix:
+#    enabled: true # 开启feign的服务降级
+
