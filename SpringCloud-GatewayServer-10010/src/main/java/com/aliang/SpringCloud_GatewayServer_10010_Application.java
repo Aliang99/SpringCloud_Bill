@@ -6,8 +6,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient // 开启eureka的服务发现
-public class SpringCloud_GatewayServer_80_Application {
+public class SpringCloud_GatewayServer_10010_Application {
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloud_GatewayServer_80_Application.class, args);
+        SpringApplication.run(SpringCloud_GatewayServer_10010_Application.class, args);
     }
 }

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>SpringCloud-GatewayServer-80</artifactId>
+    <artifactId>SpringCloud-GatewayServer-10010</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

@@ -1,0 +1,36 @@
+server:
+  port: 10010 # 设置端口
+spring:
+  application:
+    name: gateway-server # 设置服务名称
+  cloud:
+    gateway:
+      routes:
+        - id: bill-service-gateway  # 路由服务的id，随便起
+          uri: lb://Bill-Consumer # 使用服务名称,符合断言的请求会被转发到这个服务上,lb表示LoadBalancerClient的意思，gateway会将后面的User-Service通过Eureka解析为实际的主机和端口，并进行Ribbon负载均衡处理。
+          predicates: # 指定断言的规则，即配置映射路径
+            - Path=/consumer/**  # 断言的规则，
+          filters:
+            - PrefixPath=/bill #添加请求路径的前缀
+      # 跨域请求的设置
+      globalcors:
+        add-to-simple-url-handler-mapping: true # 解决option请求被拦截问题
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*" # 指定允许跨域请求的请求地址，可以单个可以多个，*表示全部
+#              - "http://127.0.0.1:80"
+            allowedMethods: # 允许跨域请求的请求类型
+              - OPTION
+              - GET
+              - PUT
+              - POST
+              - DELETE
+            allowedHeaders: "*" # 允许在请求中携带的头信息
+            allowCredentials: true # 是否允许携带cookie
+            maxAge: 360000 # 本次跨域检测的有效期
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka #指定eureka地址
+  instance:
+    prefer-ip-address: true  # 优先使用ip地址
