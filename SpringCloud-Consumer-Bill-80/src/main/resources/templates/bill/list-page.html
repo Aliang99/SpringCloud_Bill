@@ -85,31 +85,31 @@
         //1、数据获取与渲染
         if ($("#pageNum").val() != null) {
             //传参：url,pageNum,pageSize
-            fillData("/consumer/page?", $("#pageNum").val(), pageSize, typeId);
+            fillData("http://127.0.0.1:10010/consumer/page?", $("#pageNum").val(), pageSize, typeId);
         } else {
-            fillData("/consumer/page?", 1, pageSize);
+            fillData("http://127.0.0.1:10010/consumer/page?", 1, pageSize);
         }
 
         //2、页码的点击事件
         $(document).on("click", ".pn", function () { //页码
             $("#pageNum").val($(this).html());
-            fillData("/consumer/page?", $("#pageNum").val(), pageSize, typeId);
+            fillData("http://127.0.0.1:10010/consumer/page?", $("#pageNum").val(), pageSize, typeId);
         });
         //上一页点击事件
         $(document).on("click", "#prev", function () { //页码
-            fillData("/consumer/page?", prevNum, pageSize, typeId);
+            fillData("http://127.0.0.1:10010/consumer/page?", prevNum, pageSize, typeId);
         });
         //下一页点击事件
         $(document).on("click", "#next", function () { //页码
-            fillData("/consumer/page?", nextNum, pageSize, typeId);
+            fillData("http://127.0.0.1:10010/consumer/page?", nextNum, pageSize, typeId);
         });
         //最后一页点击事件
         $(document).on("click", "#last", function () { //页码
-            fillData("/consumer/page?", lastNum, pageSize, typeId);
+            fillData("http://127.0.0.1:10010/consumer/page?", lastNum, pageSize, typeId);
         });
         //第一页点击事件
         $(document).on("click", "#first", function () { //页码
-            fillData("/consumer/page?", 1, pageSize, typeId);
+            fillData("http://127.0.0.1:10010/consumer/page?", 1, pageSize, typeId);
         });
         // 类型更换
         $(document).on('change', '#typeId', function () {
@@ -125,14 +125,14 @@
             var pageSize = $("#pageSize").val();
             var beginTime = $("#beginTime").val();
             var endTime = $("#endTime").val();
-            var url = "/consumer/page?beginTime=" + beginTime + "&endTime=" + endTime + "&";
+            var url = "http://127.0.0.1:10010/consumer/page?beginTime=" + beginTime + "&endTime=" + endTime + "&";
             fillData(url, pageNum, pageSize, typeId);
         });
         //修改
         $(document).on("click", '#update-btn', function () {
             //获取id值，并携带id跳转到修改页面
             var id = $(this).attr("data-value");
-            window.location.href = "/updatePage?id=" + id;
+            window.location.href = "http://127.0.0.1:10010/updatePage?id=" + id;
             console.log("id:" + id);
         });
         //删除
@@ -144,8 +144,12 @@
             // 发送根据id删除bill的请求
             $.ajax({
                 type: "DELETE",
-                url: "/consumer/delete/" + id,
+                url: "http://127.0.0.1:10010/consumer/delete/" + id,
                 dataType: "JSON",
+                xhrFields: {
+                    withCredentials: true
+                },
+                crossDomain: true,
                 success: function (data) {
                     console.log(data);
                     layer.close(windowsId);
@@ -161,7 +165,7 @@
         });
         //添加
         $(document).on("click", '#add-btn', function () {
-            top.window.location.href = "/toAddPage";
+            top.window.location.href = "http://127.0.0.1:10010/toAddPage";
         });
 
         //填充数据，传递响应的data

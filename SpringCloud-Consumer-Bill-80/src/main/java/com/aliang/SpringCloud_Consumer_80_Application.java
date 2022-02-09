@@ -15,10 +15,10 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 @SpringCloudApplication
 @EnableFeignClients //开启Feign功能
-public class SpringCloud_Consumer_8000_Application {
+public class SpringCloud_Consumer_80_Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloud_Consumer_8000_Application.class,args);
+        SpringApplication.run(SpringCloud_Consumer_80_Application.class,args);
     }
 
 

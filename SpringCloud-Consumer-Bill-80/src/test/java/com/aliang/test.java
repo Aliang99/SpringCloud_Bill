@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = SpringCloud_Consumer_8000_Application.class)
+@SpringBootTest(classes = SpringCloud_Consumer_80_Application.class)
 public class test {
 
     @Autowired

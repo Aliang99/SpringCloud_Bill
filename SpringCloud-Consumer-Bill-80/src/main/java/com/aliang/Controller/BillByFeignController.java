@@ -83,7 +83,7 @@ public class BillByFeignController {
      * @throws ParseException
      * 开发与远程调用状态：OK
      */
-    @PutMapping("/add")
+    @PutMapping(value = "/add")
     @ResponseBody
     @HystrixCommand
     public CommonVo add(@SpringQueryMap Bill bill) throws ParseException {

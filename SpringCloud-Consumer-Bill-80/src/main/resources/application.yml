@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 80
 eureka:
   client:
     register-with-eureka: true # 表示是否将自己注册进Eureka 默认为true

@@ -78,9 +78,13 @@
                 //2、发起请求
                 $.ajax({
                     type: "POST",
-                    url: "/consumer/update?id" + id,
+                    url: "http://127.0.0.1:10010/consumer/update?id" + id,
                     data: $("#qf").serialize(),
                     dataType: "JSON",
+                    xhrFields: {
+                        withCredentials: true
+                    },
+                    crossDomain: true,
                     success: function (data) {
                         layer.close(windowId);
                         if (data.code == 200) {
@@ -103,8 +107,12 @@
             //根据id获取bill
             $.ajax({
                 type: "GET",
-                url: "/consumer/queryById/" + id,
+                url: "http://127.0.0.1:10010/consumer/queryById/" + id,
                 dataType: "JSON",
+                xhrFields: {
+                    withCredentials: true
+                },
+                crossDomain: true,
                 async: false,
                 success: function (data) {
                     layer.close(windowId);
@@ -124,8 +132,12 @@
             // 获取分类数据
             $.ajax({
                 type: "GET",
-                url: "/consumer/getTypes",
+                url: "http://127.0.0.1:10010/consumer/getTypes",
                 dataType: "JSON",
+                xhrFields: {
+                    withCredentials: true
+                },
+                crossDomain: true,
                 async: false,
                 success: function (data) {
                     if (data.code != 200){
