@@ -2,6 +2,7 @@ package com.aliang.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class BillPagesController {
@@ -24,7 +25,7 @@ public class BillPagesController {
      * @return
      * 开发与远程调用状态：OK
      */
-    @GetMapping("toAddPage")
+    @GetMapping("/consumer/page/toAddPage")
     public String toAddPage() {
         System.out.println("跳转到添加页面被访问了....");
         //页面跳转
@@ -36,7 +37,7 @@ public class BillPagesController {
      * @return
      * 开发与远程调用状态：OK
      */
-    @GetMapping("updatePage")
+    @GetMapping("/consumer/page/updatePage")
     public String updatePage() {
         System.out.println("跳转到更新页面被访问了....");
         return "/bill/update";

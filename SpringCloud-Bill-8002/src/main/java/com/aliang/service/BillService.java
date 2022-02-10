@@ -34,6 +34,7 @@ public class BillService {
      */
     @Transactional
     public int add(Bill bill){
+        System.out.println("Service:"+bill);
         int insert = mapper.insert(bill);
         if (insert!=1){
             return 0;

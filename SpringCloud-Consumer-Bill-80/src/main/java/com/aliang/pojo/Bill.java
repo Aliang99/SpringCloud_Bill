@@ -113,4 +113,19 @@ public class Bill  implements Serializable {
     public void setEndTime(Date endTime) {
         this.endTime = endTime;
     }
+
+    @Override
+    public String toString() {
+        return "Bill{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", billTime=" + billTime +
+                ", typeId=" + typeId +
+                ", price=" + price +
+                ", explain='" + explain + '\'' +
+                ", typeName='" + typeName + '\'' +
+                ", beginTime=" + beginTime +
+                ", endTime=" + endTime +
+                '}';
+    }
 }

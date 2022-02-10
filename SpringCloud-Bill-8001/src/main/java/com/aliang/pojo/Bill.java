@@ -42,11 +42,13 @@ public class Bill  implements Serializable {
 
     //@Transient
     @TableField(exist = false)
+    @JsonFormat(pattern = "yyyy-MM-dd",timezone = "GTM+8")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date beginTime;
 
     //@Transient
     @TableField(exist = false)
+    @JsonFormat(pattern = "yyyy-MM-dd",timezone = "GTM+8")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date endTime;
 

@@ -15,13 +15,13 @@
                <if test="typeId !=null">
                     b.type_id_ = #{typeId}
                </if>
-               <if test="title !=null">
-                    and b.title_ like '%${title}%'
-               </if>
-               <if test="beginTime !=null">
+<!--               <if test="title !=null">-->
+<!--                    and b.title_ like '%${title}%'-->
+<!--               </if>-->
+               <if test="beginTime!=null">
                     and b.bill_time_ &gt;= #{beginTime}
                </if>
-               <if test="endTime !=null">
+               <if test="endTime!=null">
                     and b.bill_time_ &lt;= #{endTime}
                </if>
           </where>

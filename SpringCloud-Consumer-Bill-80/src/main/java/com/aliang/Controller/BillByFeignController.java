@@ -13,6 +13,7 @@ import javax.annotation.Resource;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/bill/consumer")
@@ -62,7 +63,7 @@ public class BillByFeignController {
     @PostMapping("/update")
     @ResponseBody
     @HystrixCommand
-    public CommonVo update(@SpringQueryMap Bill bill) {
+    public CommonVo update(Bill bill) {
         return client.update(bill);
     }
 
@@ -83,10 +84,11 @@ public class BillByFeignController {
      * @throws ParseException
      * 开发与远程调用状态：OK
      */
-    @PutMapping(value = "/add")
+    @PutMapping("/add")
     @ResponseBody
     @HystrixCommand
-    public CommonVo add(@SpringQueryMap Bill bill) throws ParseException {
+    public CommonVo add(Bill bill){
+        System.out.println("Bill:"+bill);
        return client.add(bill);
     }
 

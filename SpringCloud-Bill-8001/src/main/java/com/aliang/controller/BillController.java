@@ -40,24 +40,25 @@ public class BillController {
      * @param pageSize
      * @return 状态： OK
      */
-    @GetMapping("page")
+    @PostMapping(value = "page")
     @ResponseBody
-    public CommonVo getPage(@RequestParam(defaultValue = "1") int pageNum,
-                            @RequestParam(defaultValue = "2") int pageSize,
-                            Bill bill) {
+    public CommonVo getPage(@RequestParam(value = "pageNum",defaultValue = "1") int pageNum,
+                            @RequestParam(value = "pageSize",defaultValue = "2") int pageSize,
+                            @RequestBody Bill bill) {
         System.out.println("pageNum:" + pageNum);
         System.out.println("pageSize:" + pageSize);
-        if (bill.getTypeId() != null && bill.getTypeId() <= 0) {
+        System.out.println("BILL:"+bill);
+        if (bill!=null && bill.getTypeId() != null && bill.getTypeId() <= 0) {
             bill.setTypeId(null);
         }
         List<BillType> typeList = typeService.list();
-        Map<String, Object> map = new HashMap<>();
-        map.put("types", typeList);
+        Map<String, Object> dateMap = new HashMap<>();
+        dateMap.put("types", typeList);
         PageInfo<Bill> pageInfo = billService.getPage(bill, pageNum, pageSize);
-        map.put("page", pageInfo);
-        map.put("bill", bill);
+        dateMap.put("page", pageInfo);
+        dateMap.put("bill", bill);
         CommonVo vo = new CommonVo(200, "请求成功");
-        vo.setData(map);
+        vo.setData(dateMap);
         return vo;
     }
 
@@ -70,7 +71,8 @@ public class BillController {
      */
     @PutMapping("add")
     @ResponseBody
-    public CommonVo add(Bill bill) {
+    public CommonVo add(@RequestBody Bill bill) {
+        System.out.println("Bill:"+bill);
         int add = billService.add(bill);
         System.out.println(add > 0 ? "OK" : "No");
         if (add > 0) {
@@ -117,7 +119,7 @@ public class BillController {
      */
     @PostMapping("update")
     @ResponseBody
-    public CommonVo update(Bill bill) {
+    public CommonVo update(@RequestBody Bill bill) {
         System.out.println(bill);
         int update = billService.update(bill);
         if (update > 0) {
