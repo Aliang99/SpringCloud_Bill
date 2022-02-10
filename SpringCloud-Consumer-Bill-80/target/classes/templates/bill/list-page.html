@@ -132,7 +132,7 @@
         $(document).on("click", '#update-btn', function () {
             //获取id值，并携带id跳转到修改页面
             var id = $(this).attr("data-value");
-            window.location.href = "http://127.0.0.1:10010/updatePage?id=" + id;
+            window.location.href = "http://127.0.0.1:10010/page/updatePage?id=" + id;
             console.log("id:" + id);
         });
         //删除
@@ -165,17 +165,23 @@
         });
         //添加
         $(document).on("click", '#add-btn', function () {
-            top.window.location.href = "http://127.0.0.1:10010/toAddPage";
+            top.window.location.href = "http://127.0.0.1:10010/page/toAddPage";
         });
 
         //填充数据，传递响应的data
         function fillData(url, pageNum, pageSize, typeId) {
             var windowId1 = layer.load(16); //进入页面，显示加载图标
-            var requestUrl = "";
+            var requestUrl = url;
             if (typeId <= 0) {
-                requestUrl = url + "pageNum=" + pageNum + "&pageSize=" + pageSize;
+                requestUrl = requestUrl + "pageNum=" + pageNum + "&pageSize=" + pageSize;
             } else {
-                requestUrl = url + "pageNum=" + pageNum + "&pageSize=" + pageSize + "&typeId=" + typeId;
+                requestUrl = requestUrl + "pageNum=" + pageNum + "&pageSize=" + pageSize + "&typeId=" + typeId;
+            }
+            if ($("#beginTime").val()!=null && $("#beginTime").val().trim()!="" ){
+                requestUrl = requestUrl + "&beginTime="+$("#beginTime").val();
+            }
+            if ($("#endTime").val()!=null && $("#endTime").val().trim()!="" ){
+                requestUrl = requestUrl + "&endTime="+$("#endTime").val();
             }
             $.ajax({
                 type: "GET",

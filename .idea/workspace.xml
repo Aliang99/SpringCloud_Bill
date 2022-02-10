@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84eb5f08-9ebc-4e7d-a53b-8473e2cc1fb3" name="变更" comment="target目录提交">
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/register/DateFormatRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/controller/BillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/pojo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/pojo/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/service/BillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/mapper/billMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/mapper/billMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/SpringCloud_Bill_8001_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/common/CommonVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/config/DateConverterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/controller/BillController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/mapper/BillMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/mapper/TypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/pojo/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/pojo/BillType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/service/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/service/TypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/mapper/billMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/controller/BillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/pojo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/pojo/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/service/BillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/mapper/billMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/mapper/billMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/SpringCloud_Bill_8002_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/common/CommonVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/config/DateConverterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/controller/BillController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/mapper/BillMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/mapper/TypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/pojo/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/pojo/BillType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/service/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/service/TypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/mapper/billMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/controller/BillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/pojo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/pojo/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/service/BillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/mapper/billMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/mapper/billMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/SpringCloud_Bill_8003_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/common/CommonVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/config/DateConverterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/controller/BillController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/mapper/BillMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/mapper/TypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/pojo/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/pojo/BillType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/service/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/service/TypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/mapper/billMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillByFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillByFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillPagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillPagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/client/BillFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/client/BillFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/pojo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/pojo/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/templates/bill/list-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/templates/bill/list-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/Common/CommonVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/Controller/BillByFeignController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/Controller/BillController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/Controller/BillPagesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/SpringCloud_Consumer_80_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/client/BillFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/config/FeignConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/pojo/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/pojo/BillType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/My97DatePicker.htm" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/WdatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/datePicker.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/default/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/whyGreen/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/whyGreen/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/datePicker.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/default/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/jquery/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/jquery/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/mobile/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/mobile/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/mobile/need/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/list-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/test-classes/com/aliang/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/target/classes/com/aliang/SpringCloud_EurekaServer_7001_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/target/classes/com/aliang/SpringCloud_EurekaServer_7002_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/target/classes/com/aliang/SpringCloud_EurekaServer_7003_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/target/classes/com/aliang/SpringCloud_GatewayServer_10010_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/target/classes/com/aliang/SpringCloud_GatewayServer_80_Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/target/classes/com/aliang/config/CorsConfig.class" beforeDir="false" />
+    </list>
+    <list id="b8a88300-f18b-41e1-8c66-1d0576ebcdfe" name="新的变更列表" comment="修改了配置文件中数据库参数" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Maven\apache-maven-3.8.2\LocalRepository" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Program Files\Maven\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="249BrqUqdfyNHM7KHZkA9YbbLLV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-Bill-8001" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.22555555" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SpringCloud_Bill" />
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-GatewayServer-10010\src\main\resources" />
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8003\src\main\resources" />
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8002\src\main\resources" />
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8001\src\main\resources\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8001\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aliang.config" />
+      <recent name="com.aliang.Common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="SpringCloud_Bill_8001_Application (2)" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloud_GatewayServer_10010_Application">
+    <configuration name="SpringCloud_Bill_8001_Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloud-Bill-8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_Bill_8001_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_Bill_8001_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-Bill-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_Bill_8001_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_Bill_8002_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-Bill-8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_Bill_8002_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_Bill_8003_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="SpringCloud-Bill-8003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_Bill_8003_Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_Bill_8003_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloud-Bill-8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_Bill_8003_Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_Consumer_80_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloud-Consumer-Bill-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_Consumer_80_Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_EurekaServer_7001_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-EurekaServer-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_EurekaServer_7001_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_EurekaServer_7001_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloud-EurekaServer-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_EurekaServer_7001_Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_EurekaServer_7002_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloud-EurekaServer-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_EurekaServer_7002_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_EurekaServer_7003_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="SpringCloud-EurekaServer-7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aliang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_EurekaServer_7003_Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_EurekaServer_7003_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloud-EurekaServer-7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_EurekaServer_7003_Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloud_GatewayServer_10010_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloud-GatewayServer-10010" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_GatewayServer_10010_Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringCloud_Consumer_80_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7002_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_GatewayServer_10010_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application (2)" />
+      <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_Bill_8002_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_Bill_8003_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7001_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7003_Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7001_Application" />
+        <item itemvalue="Spring Boot.SpringCloud_Bill_8003_Application" />
+        <item itemvalue="Spring Boot.SpringCloud_Bill_8002_Application" />
+        <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application" />
+        <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7003_Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="84eb5f08-9ebc-4e7d-a53b-8473e2cc1fb3" name="变更" comment="" />
+      <changelist id="b8a88300-f18b-41e1-8c66-1d0576ebcdfe" name="新的变更列表" comment="" />
+      <created>1643033125346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643033125346</updated>
+      <workItem from="1643033126416" duration="1335000" />
+      <workItem from="1643034483267" duration="367000" />
+      <workItem from="1643034858793" duration="57280000" />
+      <workItem from="1643180471423" duration="199000" />
+      <workItem from="1643189650338" duration="11324000" />
+      <workItem from="1643223042180" duration="1495000" />
+      <workItem from="1643228662210" duration="857000" />
+      <workItem from="1643231303228" duration="1960000" />
+      <workItem from="1643233345106" duration="216000" />
+      <workItem from="1643233581506" duration="2938000" />
+      <workItem from="1643237776129" duration="100000" />
+      <workItem from="1643237969423" duration="417000" />
+      <workItem from="1643392340654" duration="7952000" />
+      <workItem from="1643447107849" duration="5587000" />
+      <workItem from="1643460170989" duration="2356000" />
+      <workItem from="1643533317108" duration="600000" />
+      <workItem from="1643634965792" duration="1010000" />
+      <workItem from="1643636010239" duration="1361000" />
+      <workItem from="1644391321717" duration="1000" />
+      <workItem from="1644395452954" duration="221000" />
+      <workItem from="1644418144288" duration="7640000" />
+      <workItem from="1644429088562" duration="1202000" />
+      <workItem from="1644474166335" duration="432000" />
+      <workItem from="1644474613734" duration="58000" />
+      <workItem from="1644474946250" duration="39000" />
+      <workItem from="1644475188687" duration="15000" />
+      <workItem from="1644475569425" duration="402000" />
+      <workItem from="1644476848094" duration="6179000" />
+      <workItem from="1644483107395" duration="12068000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始的Eureka、Hystrix、Ribbon、Eureka集群、服务端集群项目">
+      <created>1643222757995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643222757995</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始的Eureka、Hystrix、Ribbon、Eureka集群、服务端集群项目">
+      <created>1643231402933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643231402933</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改了配置文件中数据库参数">
+      <created>1643232339213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643232339213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改了配置文件中数据库参数">
+      <created>1643232366837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643232366837</updated>
+    </task>
+    <task id="LOCAL-00005" summary="初始整合了Eureka、Hystrix、Ribbon的Eureka集群、服务端集群Demo">
+      <created>1643233476848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643233476848</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改了queryById接口的方法名">
+      <created>1643393947890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643393947890</updated>
+    </task>
+    <task id="LOCAL-00007" summary="使用OpenFeign重构了Bill的Controller，原来的BillController不推荐使用，但任可以正常提供服务">
+      <created>1643395309474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643395309474</updated>
+    </task>
+    <task id="LOCAL-00008" summary="开发过程中的无效代码，已清除">
+      <created>1643395357960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643395357960</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加@Description注解，标注过时">
+      <created>1643395409546</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643395409546</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修正页码跳转到最后一页时的bug">
+      <created>1643395445880</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643395445880</updated>
+    </task>
+    <task id="LOCAL-00011" summary="不推荐使用，可使用BillByFeignController替代">
+      <created>1643396412094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1643396412094</updated>
+    </task>
+    <task id="LOCAL-00012" summary="指定配置类，用于在控制台打印日志">
+      <created>1643397392069</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1643397392069</updated>
+    </task>
+    <task id="LOCAL-00013" summary="完善设计上的细节">
+      <created>1643398027805</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1643398027805</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Feign远程调用传参为对象时的做法">
+      <created>1643399491754</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643399491754</updated>
+    </task>
+    <task id="LOCAL-00015" summary="设置负载均衡功能的部分参数">
+      <created>1643399534229</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1643399534229</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加了gateway网关组件，测试使用前缀的添加和去除">
+      <created>1643450164554</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1643450164554</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修改网关端口为80，消费者服务端口为8000，以及部分bug的修改">
+      <created>1643461373766</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643461373766</updated>
+    </task>
+    <task id="LOCAL-00018" summary="修改网关端口为80，消费者服务端口为8000，以及部分bug的修改">
+      <created>1643461386240</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1643461386240</updated>
+    </task>
+    <task id="LOCAL-00019" summary="修改网关端口为10010，消费者服务端口为80">
+      <created>1644428856049</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644428856049</updated>
+    </task>
+    <task id="LOCAL-00020" summary="delete: 更改模块名称">
+      <created>1644429325171</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1644429325171</updated>
+    </task>
+    <task id="LOCAL-00021" summary="解决跨域请求经过网关时的问题">
+      <created>1644429601145</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1644429601145</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update: 模块名更改&#10;解决ajax的跨域请求问题">
+      <created>1644429779818</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1644429779818</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update: 模块名更改&#10;解决ajax的跨域请求问题">
+      <created>1644429798906</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1644429798906</updated>
+    </task>
+    <task id="LOCAL-00024" summary="target目录提交">
+      <created>1644429839190</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1644429839190</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="7498f442-1960-4d69-8179-4fc03d67dc1b">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Revert &quot;初始集成了Eureka、Hystrix、Ribbon、Eureka集群、服务端集群的SpringCloud项目&quot;&#10;&#10;This reverts commit 1c8d6a08589a24bde00a32853afbad3e97e7d9d3." />
+    <MESSAGE value="初始的Eureka、Hystrix、Ribbon、Eureka集群、服务端集群项目" />
+    <MESSAGE value="修改了配置文件中数据库参数" />
+    <MESSAGE value="初始整合了Eureka、Hystrix、Ribbon的Eureka集群、服务端集群Demo" />
+    <MESSAGE value="修改了queryById接口的方法名" />
+    <MESSAGE value="使用OpenFeign重构了Bill的Controller，原来的BillController不推荐使用，但任可以正常提供服务" />
+    <MESSAGE value="开发过程中的无效代码，已清除" />
+    <MESSAGE value="添加@Description注解，标注过时" />
+    <MESSAGE value="修正页码跳转到最后一页时的bug" />
+    <MESSAGE value="不推荐使用，可使用BillByFeignController替代" />
+    <MESSAGE value="指定配置类，用于在控制台打印日志" />
+    <MESSAGE value="完善设计上的细节" />
+    <MESSAGE value="Feign远程调用传参为对象时的做法" />
+    <MESSAGE value="设置负载均衡功能的部分参数" />
+    <MESSAGE value="添加了gateway网关组件，测试使用前缀的添加和去除" />
+    <MESSAGE value="修改网关端口为80，消费者服务端口为8000，以及部分bug的修改" />
+    <MESSAGE value="修改网关端口为10010，消费者服务端口为80" />
+    <MESSAGE value="delete: 更改模块名称" />
+    <MESSAGE value="解决跨域请求经过网关时的问题" />
+    <MESSAGE value="update: 模块名更改&#10;解决ajax的跨域请求问题" />
+    <MESSAGE value="target目录提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="target目录提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Request" memberName="filterChain" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

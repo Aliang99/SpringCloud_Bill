@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringCloud-EurekaServer-7003" />
+        <module name="SpringCloud-Consumer-Bill-80" />
+        <module name="SpringCloud-GatewayServer-10010" />
+        <module name="SpringCloud-EurekaServer-7001" />
+        <module name="SpringCloud-Bill-8003" />
+        <module name="SpringCloud-EurekaServer-7002" />
+        <module name="SpringCloud-Bill-8001" />
+        <module name="SpringCloud-Bill-8002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringCloud-Bill-8001 (1)" target="11" />
+      <module name="SpringCloud-Bill-8001 (2)" target="11" />
+      <module name="SpringCloud-Bill-8001 (3)" target="11" />
+      <module name="SpringCloud-EurekaServer-10086" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloud-Bill-8001" options="" />
+    </option>
+  </component>
+</project>

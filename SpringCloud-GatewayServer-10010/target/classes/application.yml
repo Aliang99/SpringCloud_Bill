@@ -12,6 +12,16 @@ spring:
             - Path=/consumer/**  # 断言的规则，
           filters:
             - PrefixPath=/bill #添加请求路径的前缀
+        - id: bill-pages-gateway  # 路由服务的id，随便起
+          uri: lb://Bill-Consumer # 使用服务名称,符合断言的请求会被转发到这个服务上,lb表示LoadBalancerClient的意思，gateway会将后面的User-Service通过Eureka解析为实际的主机和端口，并进行Ribbon负载均衡处理。
+          predicates: # 指定断言的规则，即配置映射路径
+            - Path=/page/**  # 断言的规则，
+          filters:
+            - PrefixPath=/consumer #添加请求路径的前缀
+        - id: bill-staticResource-gateway  # 路由服务的id，随便起
+          uri: lb://Bill-Consumer # 使用服务名称,符合断言的请求会被转发到这个服务上,lb表示LoadBalancerClient的意思，gateway会将后面的User-Service通过Eureka解析为实际的主机和端口，并进行Ribbon负载均衡处理。
+          predicates: # 指定断言的规则，即配置映射路径
+            - Path=/**  # 断言的规则，
       # 跨域请求的设置
       globalcors:
         add-to-simple-url-handler-mapping: true # 解决option请求被拦截问题

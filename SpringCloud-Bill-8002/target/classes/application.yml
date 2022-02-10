@@ -6,6 +6,9 @@ spring:
     password: 111111
   application:
     name: Bill-Service
+logging:
+  level:
+    com.aliang: debug
 server:
   port: 8002
 mybatis-plus:

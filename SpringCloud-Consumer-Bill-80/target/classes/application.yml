@@ -43,7 +43,9 @@ Bill-Service:
 #        errorThresholdPercentage: 50 # 触发熔断错误比例阈值，默认值50%
 #        sleepWindowInMilliseconds: 10000 # 熔断后休眠时长，默认值5秒
 #        requestVolumeThreshold: 10 # 熔断触发最小请求次数，默认值是20次
-#feign:
+feign:
+  httpclient:
+    enabled: true # 配置feign发送请求使用apache httpclient 而不是默认的jdk UrlConnection
 #  hystrix:
 #    enabled: true # 开启feign的服务降级
 
