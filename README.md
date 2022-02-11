@@ -13,7 +13,11 @@
 
 🚩 服务端集群
 
-🚩整合OpenFeign动态代理请求接口(2022年1月29日 02点47分)
+🚩 整合OpenFeign
+
+🚩 整合Gateway
+
+🚩 整合Config
 
 本项目由Bill项目重构
 
@@ -21,23 +25,18 @@
 
 **[SpringBoot记账Demo](https://github.com/Aliang99/billProject)**
 
-### 待完善：整合GateWay、Config、Bus😄
+### 待完善：整合Bus😄
 
 ...
 
 ### 另再使用SpringCloud Alibaba重构
 
-用于学习SpringCloud Alibaba
+目的：用于学习SpringCloud Alibaba
 
 ✏️使用Nacos替换Eureka、Config、Bus
 
 ✏️使用Sentinel替换Hystrix
 
-✏️使用Dubbo RPC替换Feign
-
-✏️使用Dubbo PROXY替换Gateway
-
-✏️使用Dubbo LB 替换 Ribbon
 
 **计划待定**
 ### 组件替换参考：
