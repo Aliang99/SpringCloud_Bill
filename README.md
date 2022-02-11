@@ -13,7 +13,7 @@
 
 🚩 服务端集群
 
-🚩 整合OpenFeign动态代理请求接口(2022年1月29日 02点47分)
+🚩 整合OpenFeign
 
 🚩 整合Gateway
 
@@ -37,11 +37,6 @@
 
 ✏️使用Sentinel替换Hystrix
 
-✏️使用Dubbo RPC替换Feign
-
-✏️使用Dubbo PROXY替换Gateway
-
-✏️使用Dubbo LB 替换 Ribbon
 
 **计划待定**
 ### 组件替换参考：
