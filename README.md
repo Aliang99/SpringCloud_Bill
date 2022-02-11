@@ -15,19 +15,23 @@
 
 🚩整合OpenFeign动态代理请求接口(2022年1月29日 02点47分)
 
+🚩 整合Gateway
+
+🚩 整合Config
+
 本项目由Bill项目重构
 
 原来的版本可以查看 
 
 **[SpringBoot记账Demo](https://github.com/Aliang99/billProject)**
 
-### 待完善：整合GateWay、Config、Bus😄
+### 待完善：整合Bus😄
 
 ...
 
 ### 另再使用SpringCloud Alibaba重构
 
-用于学习SpringCloud Alibaba
+目的：用于学习SpringCloud Alibaba
 
 ✏️使用Nacos替换Eureka、Config、Bus
 
