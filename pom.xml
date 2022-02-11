@@ -18,6 +18,7 @@
         <module>SpringCloud-EurekaServer-7002</module>
         <module>SpringCloud-EurekaServer-7003</module>
         <module>SpringCloud-GatewayServer-10010</module>
+        <module>SpringCloud-ConfigServer-12000</module>
     </modules>
 
     <properties>

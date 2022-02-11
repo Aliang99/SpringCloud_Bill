@@ -7,13 +7,13 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7003.com:7003/eureka # Eureka地址
-    register-with-eureka: false # 不注册自己 默认为true
-    fetch-registry: false  # 表示是否从EurekaServer抓取已有的注册信息，默认为true，单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+    register-with-eureka: true # 不注册自己 默认为true
+    fetch-registry: true  # 表示是否从EurekaServer抓取已有的注册信息，默认为true，单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
   instance:
     hostname: eureka7002.com
     # 这里的用处主要体现在discoveryClient.getInstances("user-service").get(0).getHost(); 获取时，获取的是ip地址名而不是主机名,
     # 具体参考consumer的controller的queryById方法体
 #    prefer-ip-address: true  # 使用ip地址而不是主机名
 #    ip-address: 127.0.0.1 # 单机模式下，使用本地地址无所谓，但是集群模式下最好使用域名映射端口
-    lease-expiration-duration-in-seconds: 5 # 服务续约的间隔，默认90秒
-    lease-renewal-interval-in-seconds: 10 #服务失效时间，默认30秒
+    lease-expiration-duration-in-seconds: 1 # 服务续约的间隔，默认90秒
+    lease-renewal-interval-in-seconds: 1 #服务失效时间，默认30秒

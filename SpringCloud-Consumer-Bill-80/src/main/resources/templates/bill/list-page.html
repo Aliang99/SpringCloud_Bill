@@ -120,10 +120,10 @@
         });
         //模糊查询事件
         $("#form-btn").click(function () {
-            var pageNum = $("#pageNum").val();
+            //var pageNum = 1; // 条件查询时 总是从第一页开始查
             var pageSize = $("#pageSize").val();
             var url = "http://127.0.0.1:10010/consumer/page?";
-            fillData(url, pageNum, pageSize, typeId);
+            fillData(url, 1, pageSize, typeId);// 条件查询时 总是从第一页开始查
         });
         //修改
         $(document).on("click", '#update-btn', function () {
@@ -143,10 +143,12 @@
                 type: "DELETE",
                 url: "http://127.0.0.1:10010/consumer/delete/" + id,
                 dataType: "JSON",
+                // /*处理ajax的跨域查询
                 xhrFields: {
                     withCredentials: true
                 },
                 crossDomain: true,
+                //  */
                 success: function (data) {
                     console.log(data);
                     layer.close(windowsId);
@@ -154,7 +156,7 @@
                         layer.msg("删除成功", {icon: 1});
                         location.reload(); //刷新页面
                     } else {
-                        layer.msg(data.msg, {icon: 2});
+                        layer.msg(data.msg, {icon: 1});
                     }
                 }
             })
@@ -189,7 +191,7 @@
                     //console.log(data);
                     layer.close(windowId1); //请求被响应，关闭加载图标
                     if (data.code != 200){
-                        layer.msg(data.msg, {icon: 2});
+                        layer.msg(data.msg, {icon: 1});
                         return;
                     }
                     //0、获取分页参数，备用

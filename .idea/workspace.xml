@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84eb5f08-9ebc-4e7d-a53b-8473e2cc1fb3" name="变更" comment="程序设计上的问题完善">
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-ConfigServer-12000/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-ConfigServer-12000/src/main/java/com/aliang/SpringCloud_ConfigServer_12000_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-ConfigServer-12000/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/bootstrap1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/bootstrap1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fef5eabc-9301-4746-866a-03e7b4b28416.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fef5eabc-9301-4746-866a-03e7b4b28416.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/mapper/billMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/mapper/billMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/application1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/templates/bill/list-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/templates/bill/list-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/list-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/list-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="b8a88300-f18b-41e1-8c66-1d0576ebcdfe" name="新的变更列表" comment="修改了配置文件中数据库参数" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +93,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -70,15 +101,16 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-Bill-8001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="settings.editor.splitter.proportion" value="0.22555555" />
   </component>
   <component name="ReactorSettings">
@@ -86,11 +118,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\SpringCloud_Bill" />
       <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-GatewayServer-10010\src\main\resources" />
-      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8003\src\main\resources" />
-      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8002\src\main\resources" />
-      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8001\src\main\resources\mapper" />
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-EurekaServer-7003\src\main\resources" />
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-EurekaServer-7002\src\main\resources" />
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-EurekaServer-7001\src\main\resources" />
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Consumer-Bill-80\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8001\src\main\resources" />
@@ -118,7 +150,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringCloud_GatewayServer_10010_Application">
+  <component name="RunManager" selected="Spring Boot.SpringCloud_Bill_8001_Application">
     <configuration name="SpringCloud_Bill_8001_Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringCloud-Bill-8003" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_Bill_8001_Application" />
@@ -210,7 +242,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCloud_EurekaServer_7003_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+    <configuration name="SpringCloud_EurekaServer_7003_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringCloud-EurekaServer-7003" />
       <extension name="coverage">
         <pattern>
@@ -219,7 +251,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_EurekaServer_7003_Application" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -245,23 +276,26 @@
       <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7002_Application" />
       <item itemvalue="Spring Boot.SpringCloud_GatewayServer_10010_Application" />
       <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application (2)" />
-      <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application" />
       <item itemvalue="Spring Boot.SpringCloud_Bill_8002_Application" />
       <item itemvalue="Spring Boot.SpringCloud_Bill_8003_Application" />
       <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7001_Application" />
       <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7003_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7001_Application" />
+        <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application" />
         <item itemvalue="Spring Boot.SpringCloud_Bill_8003_Application" />
         <item itemvalue="Spring Boot.SpringCloud_Bill_8002_Application" />
-        <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application" />
         <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7003_Application" />
+        <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7001_Application" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="84eb5f08-9ebc-4e7d-a53b-8473e2cc1fb3" name="变更" comment="" />
@@ -299,7 +333,10 @@
       <workItem from="1644475569425" duration="402000" />
       <workItem from="1644476848094" duration="6179000" />
       <workItem from="1644483107395" duration="12332000" />
-      <workItem from="1644563500604" duration="681000" />
+      <workItem from="1644563500604" duration="6605000" />
+      <workItem from="1644573201723" duration="67000" />
+      <workItem from="1644589791894" duration="335000" />
+      <workItem from="1644590159821" duration="784000" />
     </task>
     <task id="LOCAL-00001" summary="初始的Eureka、Hystrix、Ribbon、Eureka集群、服务端集群项目">
       <created>1643222757995</created>
@@ -483,7 +520,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644508503144</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="程序设计上的问题完善">
+      <created>1644564301811</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644564301811</updated>
+    </task>
+    <task id="LOCAL-00028" summary="程序设计上的问题完善">
+      <created>1644564333011</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644564333011</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

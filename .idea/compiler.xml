@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringCloud-EurekaServer-7003" />
         <module name="SpringCloud-Consumer-Bill-80" />
+        <module name="SpringCloud-ConfigServer-12000" />
         <module name="SpringCloud-GatewayServer-10010" />
         <module name="SpringCloud-EurekaServer-7001" />
         <module name="SpringCloud-Bill-8003" />

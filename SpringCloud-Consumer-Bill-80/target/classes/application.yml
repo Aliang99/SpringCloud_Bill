@@ -21,10 +21,10 @@ Bill-Service:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # 负载均衡，随机调用 ，默认轮询
     ConnectTimeout: 1000 # 连接超时时长
-    ReadTimeout: 2000 # 数据通信超时时长
+    ReadTimeout: 1000 # 数据通信超时时长
     MaxAutoRetries: 0 # 当前服务器的重试次数
-    MaxAutoRetriesNextServer: 0 # 重试多少次服务
-    OkToRetryOnAllOperations: false # 是否对所有的请求方式都重试
+    MaxAutoRetriesNextServer: 10 # 重试多少次服务
+    OkToRetryOnAllOperations: true # 是否对所有的请求方式都重试
 #  mvc:
 #    hiddenmethod:
 #      filter:
