@@ -4,135 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84eb5f08-9ebc-4e7d-a53b-8473e2cc1fb3" name="变更" comment="target目录提交">
-      <change afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/register/DateFormatRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/controller/BillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/pojo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/pojo/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/java/com/aliang/service/BillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/mapper/billMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/mapper/billMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/SpringCloud_Bill_8001_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/common/CommonVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/config/DateConverterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/controller/BillController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/mapper/BillMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/mapper/TypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/pojo/Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/pojo/BillType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/service/BillService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/com/aliang/service/TypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/mapper/billMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/controller/BillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/pojo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/pojo/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/java/com/aliang/service/BillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/mapper/billMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/mapper/billMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/SpringCloud_Bill_8002_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/common/CommonVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/config/DateConverterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/controller/BillController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/mapper/BillMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/mapper/TypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/pojo/Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/pojo/BillType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/service/BillService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/com/aliang/service/TypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/mapper/billMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/controller/BillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/pojo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/pojo/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/service/BillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/mapper/billMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/mapper/billMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/SpringCloud_Bill_8003_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/common/CommonVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/config/DateConverterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/controller/BillController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/mapper/BillMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/mapper/TypeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/pojo/Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/pojo/BillType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/service/BillService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/com/aliang/service/TypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/mapper/billMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillByFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillByFeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillPagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillPagesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/client/BillFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/client/BillFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/pojo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/pojo/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/templates/bill/list-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/templates/bill/list-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/Common/CommonVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/Controller/BillByFeignController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/Controller/BillController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/Controller/BillPagesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/SpringCloud_Consumer_80_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/client/BillFeignClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/config/FeignConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/pojo/Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/com/aliang/pojo/BillType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/My97DatePicker.htm" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/My97DatePicker.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/WdatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/datePicker.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/default/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/whyGreen/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/skin/whyGreen/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/datePicker.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/default/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/js/jquery/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/js/jquery/jquery-1.10.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/mobile/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/mobile/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/mobile/need/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/mobile/need/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/icon-ext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/loading-0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/loading-1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/static/layer/theme/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/static/layer/theme/default/loading-2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/list-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/test-classes/com/aliang/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/target/classes/com/aliang/SpringCloud_EurekaServer_7001_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/target/classes/com/aliang/SpringCloud_EurekaServer_7002_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/target/classes/com/aliang/SpringCloud_EurekaServer_7003_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/target/classes/com/aliang/SpringCloud_GatewayServer_10010_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/target/classes/com/aliang/SpringCloud_GatewayServer_80_Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/target/classes/com/aliang/config/CorsConfig.class" beforeDir="false" />
+    <list default="true" id="84eb5f08-9ebc-4e7d-a53b-8473e2cc1fb3" name="变更" comment="程序设计上的问题完善">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/java/com/aliang/Controller/BillController.java" afterDir="false" />
     </list>
     <list id="b8a88300-f18b-41e1-8c66-1d0576ebcdfe" name="新的变更列表" comment="修改了配置文件中数据库参数" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -203,7 +78,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="settings.editor.splitter.proportion" value="0.22555555" />
   </component>
   <component name="ReactorSettings">
@@ -423,7 +298,8 @@
       <workItem from="1644475188687" duration="15000" />
       <workItem from="1644475569425" duration="402000" />
       <workItem from="1644476848094" duration="6179000" />
-      <workItem from="1644483107395" duration="12068000" />
+      <workItem from="1644483107395" duration="12332000" />
+      <workItem from="1644563500604" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="初始的Eureka、Hystrix、Ribbon、Eureka集群、服务端集群项目">
       <created>1643222757995</created>
@@ -593,7 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644429839190</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="target目录提交">
+      <created>1644508430259</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1644508430259</updated>
+    </task>
+    <task id="LOCAL-00026" summary="程序设计上的问题完善">
+      <created>1644508503144</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1644508503144</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,6 +543,22 @@
     </option>
     <option name="RECENT_FILTERS">
       <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
         <entry key="User">
           <value>
             <list>
@@ -693,7 +599,8 @@
     <MESSAGE value="解决跨域请求经过网关时的问题" />
     <MESSAGE value="update: 模块名更改&#10;解决ajax的跨域请求问题" />
     <MESSAGE value="target目录提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="target目录提交" />
+    <MESSAGE value="程序设计上的问题完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="程序设计上的问题完善" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
