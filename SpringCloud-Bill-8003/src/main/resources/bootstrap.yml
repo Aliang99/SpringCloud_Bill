@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    config: # 注意：仓库中创建的文件是： user-dev.yml ,要根据这个文件名去配置下面的参数
+      # 要与仓库中的配置文件的application保持一致
+      name: BillService
+      # 要与仓库中的配置文件的profile保持一致
+      profile: dev
+      # 要与仓库中的配置文件所属的版本（分支）一样
+      label: master
+      discovery:
+        # 使用配置中心
+        enabled: true
+        # 配置中心服务名
+        service-id: Config-Server
+server:
+  port: 8003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka

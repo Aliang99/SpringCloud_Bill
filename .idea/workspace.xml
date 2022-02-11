@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84eb5f08-9ebc-4e7d-a53b-8473e2cc1fb3" name="变更" comment="程序设计上的问题完善">
-      <change afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud-ConfigServer-12000/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud-ConfigServer-12000/src/main/java/com/aliang/SpringCloud_ConfigServer_12000_Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud-ConfigServer-12000/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/bootstrap1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/bootstrap1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fef5eabc-9301-4746-866a-03e7b4b28416.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fef5eabc-9301-4746-866a-03e7b4b28416.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/mapper/billMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8001/target/classes/mapper/billMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8002/src/main/resources/application1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8002/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Bill-8003/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/templates/bill/list-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/src/main/resources/templates/bill/list-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/list-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Bill-80/target/classes/templates/bill/list-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7002/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-EurekaServer-7003/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="84eb5f08-9ebc-4e7d-a53b-8473e2cc1fb3" name="变更" comment="主配置文件使用和其它方式获取配置文件使用的学习" />
     <list id="b8a88300-f18b-41e1-8c66-1d0576ebcdfe" name="新的变更列表" comment="修改了配置文件中数据库参数" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -68,6 +36,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpringCloud-Bill-8001/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/java/com/aliang/SpringCloud_Bill_8003_Application.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpringCloud-Bill-8003/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -105,7 +80,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-GatewayServer-10010/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-ConfigServer-12000/src/test/java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
@@ -118,11 +93,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-ConfigServer-12000\src\test\java" />
       <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-GatewayServer-10010\src\main\resources" />
       <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-EurekaServer-7003\src\main\resources" />
       <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-EurekaServer-7002\src\main\resources" />
       <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-EurekaServer-7001\src\main\resources" />
-      <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Consumer-Bill-80\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\SpringCloud_Bill\SpringCloud-Bill-8001\src\main\resources" />
@@ -206,6 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCloud_ConfigServer_12000_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloud-ConfigServer-12000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_ConfigServer_12000_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringCloud_Consumer_80_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringCloud-Consumer-Bill-80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aliang.SpringCloud_Consumer_80_Application" />
@@ -281,6 +263,7 @@
       <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7001_Application" />
       <item itemvalue="Spring Boot.SpringCloud_EurekaServer_7003_Application" />
       <item itemvalue="Spring Boot.SpringCloud_Bill_8001_Application" />
+      <item itemvalue="Spring Boot.SpringCloud_ConfigServer_12000_Application" />
     </list>
     <recent_temporary>
       <list>
@@ -576,6 +559,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">

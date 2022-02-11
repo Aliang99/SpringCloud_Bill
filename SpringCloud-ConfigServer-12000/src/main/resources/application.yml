@@ -1,0 +1,16 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/superAliang/SpringCloud-Bill-Config.git # gitee上项目的地址，即远程库地址，公开的仓库不需要用户名和密码
+          # username: 用户名
+          # password: 密码
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka # 指定Eureka地址，用于将config这个服务注册到Eureka
