@@ -241,7 +241,7 @@ public class BillController {
         param.put("explain", bill.getExplain());
         param.put("typeName", bill.getTypeName());
         param.put("beginTime", bill.getBeginTime() == null ? null : bill.getBeginTime());
-        param.put("endTime", bill.getEndTime() == null ? null : bill.getEndTime()); //TODO: get请求携带参数 没有效果，需要进一步完善
+        param.put("endTime", bill.getEndTime() == null ? null : bill.getEndTime());
         param.put("pageNum", pageNum);
         param.put("pageSize", pageSize);
         return restTemplate.getForObject(BILL_SERVICE_URL + "/bill/page" + urlParam, CommonVo.class, param);
