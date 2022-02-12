@@ -3,21 +3,23 @@
 
 ### 目前进度：
 
-🚩 整合Eureka
-
-🚩 整合Hystrix
-
-🚩 整合Ribbon
+🚩 整合Eureka(各个服务的注册与协作)
 
 🚩 Eureka集群
 
 🚩 服务端集群
 
-🚩 整合OpenFeign
+🚩 整合Hystrix(服务端未响应时，将服务降级为本机处理，对本次请求快速做出响应)
 
-🚩 整合Gateway
+🚩 整合Ribbon(集群模式下的负载均衡处理)
 
-🚩 整合Config
+🚩 整合OpenFeign(注意项：feign对于get、post、put、delete等请求方式的处理)
+
+🚩 整合Gateway(注意项：跨域请求的处理)
+
+🚩 整合Config(将配置文件放置在远程仓库，与Bus组件协作时能动态更新配置文件信息，该配置文件所在的服务不需要重启)
+
+🚩 html页面使用Ajax作跨域请求与数据回显，将请求发送到Gateway由Gateway处理。
 
 本项目由Bill项目重构
 
@@ -25,11 +27,13 @@
 
 **[SpringBoot记账Demo](https://github.com/Aliang99/billProject)**
 
-### 待完善：整合Bus😄
+### 未完善：整合Bus(需要搭配消息队列使用，后续学习了消息队列后再考虑将Bus加入本项目)
 
 ...
 
-### 另再使用SpringCloud Alibaba重构
+## 后续计划：
+
+### 使用SpringCloud Alibaba重构
 
 目的：用于学习SpringCloud Alibaba
 
